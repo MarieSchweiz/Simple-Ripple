@@ -26,4 +26,7 @@ feedbackcolor = "rgba(0,0,0,0.2)"
 ripplesize = layer.height
 ```
 
-[![Install with Framer Modules](https://www.framermodules.com/assets/badge.png)](https://open.framermodules.com/<Simple Ripple>)
+<a href='https://open.framermodules.com/<Simple Ripple>'>
+    <img alt='Install with Framer Modules'
+    src='https://www.framermodules.com/assets/badge@2x.png' width='160' height='40' />
+</a>
