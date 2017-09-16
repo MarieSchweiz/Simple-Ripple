@@ -355,7 +355,7 @@
         "height" : 640,
         "fillType" : "color",
         "targetName" : null,
-        "fillColor" : "rgb(255, 255, 255)",
+        "fillColor" : "rgb(242, 242, 242)",
         "name" : null
       }
     ]
