@@ -2,7 +2,7 @@
 
 A Framer.js module flavored with animation and a taste of Android. I captured that taste so you can use it in your framer.js project. 
 
-![Simple-Ripple Demo](/simple-ripple.gif)
+[![Simple-Ripple Demo](/simple-ripple.gif)](https://framer.cloud/epPVg)
 
 ### Add Module
 Learn how to add a module into your framer project and add the following lines of code to the head of your .coffee file.
@@ -11,7 +11,7 @@ Learn how to add a module into your framer project and add the following lines o
 ripple = require("simpleripple").ripple
 ```
 ### Use Simple Ripple
-By adding a TouchStart event to the desired element.
+By adding a TouchStart event to the element you want to ripple (simply).
 
 ```
 yourbutton.on(Events.TouchStart, ripple)
