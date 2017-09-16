@@ -1,6 +1,8 @@
 # Simple Ripple
 
-A Framer.js module flavored with animation with a taste of android. I captured that taste so you can use it in your framer.js project.
+A Framer.js module flavored with animation and a taste of Android. I captured that taste so you can use it in your framer.js project. 
+
+![Simple-Ripple Demo](/simple-ripple.gif)
 
 ### Add Module
 Learn how to add a module into your framer project and add the following lines of code to the head of your .coffee file.
