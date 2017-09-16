@@ -1,0 +1,11 @@
+{
+    "name": "Simple Ripple",
+    "description": "Visual animation effect on android",
+    "author": "Marie Schweiz",
+
+    "require": "ripple = require("simpleripple").ripple",
+    "install": "simpleripple.coffee",
+    "example": "example.coffee",
+
+    "thumb": "simple-ripple.gif"
+}
