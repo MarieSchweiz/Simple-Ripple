@@ -34,7 +34,7 @@ ripplesize = layer.height
 </a>
 
 
-MIT License
+## MIT License
 
 Copyright (c) 2017 [Marie Schweiz](https://twitter.com/ma_rylou)
 
