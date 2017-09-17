@@ -2,7 +2,7 @@
 
 A Framer.js module flavored with animation and a taste of Android. I captured that taste so you can use it in your framer.js project. 
 
-[![Simple-Ripple Demo](/simple-ripple-demo.gif)](https://framer.cloud/epPVg)
+[![Simple-Ripple Demo](/simple-ripple-demo.gif)](https://framer.cloud/GiKhM)
 
 ### Add Module
 Learn how to add a module into your framer project and add the following lines of code to the head of your .coffee file.
