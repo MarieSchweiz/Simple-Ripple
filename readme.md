@@ -2,7 +2,7 @@
 
 A Framer.js module flavored with animation and a taste of Android. I captured that taste so you can use it in your framer.js project. 
 
-[![Simple-Ripple Demo](/simple-ripple.gif)](https://framer.cloud/epPVg)
+[![Simple-Ripple Demo](/simple-ripple-demo.gif)](https://framer.cloud/epPVg)
 
 ### Add Module
 Learn how to add a module into your framer project and add the following lines of code to the head of your .coffee file.
@@ -18,15 +18,14 @@ yourbutton.on(Events.TouchStart, ripple)
 ```
 
 ### Configure Module
-Open the module simpleripple.coffee in your modules folder. The ripple size itself changes based on the element size it is used on. You can change its color and opacity by using another rgba value.
+Open simpleripple.coffee located your modules folder. The ripple size itself is based on the element size it is used for. You can change its default color and opacity by using other rgba() values.
 
 ```
-ripplecolor = "rgba(0,0,0,0.2)"
-feedbackcolor = "rgba(0,0,0,0.2)"
+#current defaults
+
+ripplecolor = "rgba(135, 135, 135, 0.10)"
+feedbackcolor = "rgba(135, 135, 135, 0.10)"
 ripplesize = layer.height
 ```
 
-<a href='https://open.framermodules.com/<Simple Ripple>'>
-    <img alt='Install with Framer Modules'
-    src='https://www.framermodules.com/assets/badge@2x.png' width='160' height='40' />
-</a>
+[![Install with Framer Modules](https://www.framermodules.com/assets/badge.png)](https://open.framermodules.com/<Simple Ripple>)
