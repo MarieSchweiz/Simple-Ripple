@@ -19,7 +19,7 @@ exports.ripple = (event, layer) ->
 	ourfancylayer = layer
 	
     #Variables to configure your ripple and feedback
-	ripplecolor = "rgba(135, 135, 135, 0.10)"
+	ripplecolor = "rgba(59, 59, 59, 0.10)"
 	feedbackcolor = "rgba(135, 135, 135, 0.10)"
 	ripplesize = layer.height
 
