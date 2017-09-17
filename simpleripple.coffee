@@ -36,12 +36,20 @@ exports.ripple = (event, layer) ->
 	superfeedback.animate
 		opacity: 1
 		options:
-			time: 3
+			time: 2
 			curve: "cubic-bezier(0.4, 0.0, 0.6, 1)"
 			
 	layer.onTouchEnd ->
-		superfeedback.destroy()
 
+		#hide feedback layer
+		superfeedback.animate
+			opacity: 0
+			options:
+				time: 0.2
+				curve: "cubic-bezier(0.4, 0.0, 0.6, 1)"
+		#destroy feedback layer
+		superfeedback.onAnimationEnd ->	
+			superfeedback.destroy()
 
 	coords = Canvas.convertPointToLayer(event, layer)
 	#print coords
@@ -55,7 +63,7 @@ exports.ripple = (event, layer) ->
 		width: ripplesize
 		height: ripplesize
 		backgroundColor:ripplecolor
-		borderRadius: 60
+		borderRadius: ripplesize
 		x: coords.x - (ripplesize / 2)
 		y: coords.y - (ripplesize / 2)
 
