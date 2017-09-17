@@ -1,6 +1,6 @@
 # Simple Ripple
 
-A Framer.js module flavored with animation and a taste of Android. I captured that taste so you can use it in your framer.js project. 
+A [Framer.js](https://github.com/koenbok/Framer) module flavored with animation and a taste of [Material](https://material.io). I captured that taste so you can use it in your project. 
 
 [![Simple-Ripple Demo](/simple-ripple-demo.gif)](https://framer.cloud/GiKhM)
 
@@ -23,12 +23,15 @@ Open simpleripple.coffee located your modules folder. The ripple size itself is 
 ```
 #current defaults
 
-ripplecolor = "rgba(135, 135, 135, 0.10)"
+ripplecolor = "rgba(59, 59, 59, 0.10)"
 feedbackcolor = "rgba(135, 135, 135, 0.10)"
 ripplesize = layer.height
 ```
 
-[![Install with Framer Modules](https://www.framermodules.com/assets/badge.png)](https://open.framermodules.com/<Simple Ripple>)
+<a href='https://open.framermodules.com/<Simple Ripple>'>
+    <img alt='Install with Framer Modules'
+    src='https://www.framermodules.com/assets/badge@2x.png' width='160' height='40' />
+</a>
 
 
 MIT License
