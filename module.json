@@ -1,6 +1,6 @@
 {
     "name": "Simple Ripple",
-    "description": "Visual animation effect on android",
+    "description": "Visual animation effect for android material",
     "author": "Marie Schweiz",
 
     "require": "ripple = require('simpleripple').ripple",
