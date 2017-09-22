@@ -17,6 +17,8 @@
 exports.ripple = (event, layer) ->
 # Coordinates relative to a parent element for the ripple
 	ourfancylayer = layer
+	layer.clip = true
+
 	
     #Variables to configure your ripple and feedback
 	ripplecolor = "rgba(59, 59, 59, 0.10)"
