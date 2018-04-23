@@ -49,9 +49,11 @@ exports.ripple = (event, layer) ->
 			options:
 				time: 0.2
 				curve: "cubic-bezier(0.4, 0.0, 0.6, 1)"
+				
 		#destroy feedback layer
-		Utils.delay 0.2, ->	
+		superfeedback.onAnimationEnd ->	
 			superfeedback.destroy()
+			
 
 	coords = Canvas.convertPointToLayer(event, layer)
 	#print coords
